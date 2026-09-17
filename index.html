@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Titânio Funilaria e Pintura</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            background:
+                radial-gradient(circle at top, #292929 0%, #111 38%, #050505 80%);
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            min-height: 100vh;
+            padding: 30px 22px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 340px;
+            margin: 10px auto 15px;
+        }
+
+        h1 {
+            font-size: 21px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        .subtitulo {
+            margin-top: 7px;
+            color: #aaa;
+            font-size: 13px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .linha {
+            width: 70px;
+            height: 3px;
+            margin: 18px auto 25px;
+            border-radius: 5px;
+            background: #9e0b0f;
+        }
+
+        .links {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+
+        .botao {
+            width: 100%;
+            min-height: 68px;
+            display: flex;
+            align-items: center;
+            padding: 10px 16px;
+            color: #fff;
+            text-decoration: none;
+            background: linear-gradient(135deg, #202020, #101010);
+            border: 1px solid #343434;
+            border-left: 4px solid #9e0b0f;
+            border-radius: 10px;
+            box-shadow: 0 5px 18px rgba(0,0,0,.35);
+        }
+
+        .icone {
+            width: 43px;
+            height: 43px;
+            min-width: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 14px;
+            border-radius: 50%;
+            background: #9e0b0f;
+            font-size: 20px;
+        }
+
+        .texto {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .titulo {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .info {
+            margin-top: 4px;
+            color: #aaa;
+            font-size: 12px;
+            overflow-wrap: anywhere;
+        }
+
+        .botao::after {
+            content: "›";
+            margin-left: auto;
+            padding-left: 10px;
+            color: #777;
+            font-size: 28px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding-top: 30px;
+            color: #777;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="logo.png"
+         alt="Titânio Funilaria e Pintura"
+         class="logo">
+
+    <h1>Funilaria e Pintura</h1>
+
+    <div class="subtitulo">
+        Seu carro em boas mãos
+    </div>
+
+    <div class="linha"></div>
+
+    <div class="links">
+
+        <a class="botao"
+           href="https://wa.me/5511947413398?text=Ol%C3%A1%21%20Encontrei%20a%20Tit%C3%A2nio%20pelo%20cart%C3%A3o%20de%20visita%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.">
+
+            <div class="icone">☎</div>
+
+            <div class="texto">
+                <span class="titulo">SOLICITAR ORÇAMENTO</span>
+                <span class="info">WhatsApp • (11) 94741-3398</span>
+            </div>
+        </a>
+
+        <a class="botao"
+           href="https://www.instagram.com/titaniofp/">
+
+            <div class="icone">◎</div>
+
+            <div class="texto">
+                <span class="titulo">INSTAGRAM</span>
+                <span class="info">@titaniofp</span>
+            </div>
+        </a>
+
+        <a class="botao"
+           href="mailto:titaniofunilariaepintura@gmail.com">
+
+            <div class="icone">✉</div>
+
+            <div class="texto">
+                <span class="titulo">ENVIAR E-MAIL</span>
+                <span class="info">titaniofunilariaepintura@gmail.com</span>
+            </div>
+        </a>
+
+        <a class="botao"
+           href="https://www.google.com/maps/search/?api=1&query=Rua+Mandiba+165+Imirim+Sao+Paulo+SP+02541-000">
+
+            <div class="icone">●</div>
+
+            <div class="texto">
+                <span class="titulo">COMO CHEGAR</span>
+                <span class="info">Rua Mandiba, 165 – Imirim</span>
+            </div>
+        </a>
+
+    </div>
+
+    <footer>
+        TITÂNIO • FUNILARIA E PINTURA
+    </footer>
+
+</div>
+
+</body>
+</html>
